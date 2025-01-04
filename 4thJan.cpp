@@ -17,7 +17,7 @@ public:
             if(firstAppear != string::npos && lastAppear != string::npos &&   
                 lastAppear > firstAppear+1)
             {
-               unordered_set<char> st;
+              set<char> st;
 
                for(int i=firstAppear+1;i<lastAppear;i++)
                {
